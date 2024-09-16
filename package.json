@@ -1,0 +1,20 @@
+{
+  "name": "@sumanyu/starter",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Sumanyu Sharma",
+  "license": "MIT",
+  "description": "TEST 1",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
