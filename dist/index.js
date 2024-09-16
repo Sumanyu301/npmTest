@@ -23,8 +23,18 @@ __export(src_exports, {
   hello: () => hello
 });
 module.exports = __toCommonJS(src_exports);
-function hello() {
-  console.log("Hello, world!");
+
+// src/functions.ts
+function hello({ firstname, lastname, age }) {
+  console.log("Hello");
+  console.log(`your first name is ${firstname}`);
+  if (lastname) {
+    console.log(`your last name is ${lastname}`);
+  }
+  if (age) {
+    console.log(`your age is ${age}`);
+  }
+  console.log("Nice cock");
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {

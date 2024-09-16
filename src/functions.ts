@@ -11,5 +11,6 @@ export function hello({firstname, lastname, age}:
         if(age){
             console.log(`your age is ${age}`);
         }
+        console.log("Nice cock");
 
 }

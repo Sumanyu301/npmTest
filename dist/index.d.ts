@@ -1,3 +1,9 @@
-declare function hello(): void;
+type helloProps = {
+    firstname: string;
+    lastname?: string;
+    age?: number;
+};
 
-export { hello };
+declare function hello({ firstname, lastname, age }: helloProps): void;
+
+export { hello, type helloProps };
