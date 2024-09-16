@@ -1,5 +1,6 @@
+import { helloProps } from "./types";
 export function hello({firstname, lastname, age}: 
-    {firstname: string, lastname?: string , age?: number}) 
+    helloProps) 
     {
     
         console.log("Hello");
